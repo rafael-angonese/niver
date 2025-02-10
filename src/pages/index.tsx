@@ -31,19 +31,19 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Aniversario de Julio</title>
+        <title>Aniversario de Ryan</title>
         <meta name="description" content="Feliz aniversario 🎉" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Feliz Niver <a href="#">Julioooooo!</a>
+          Feliz Niver <a href="#">Ryaaaaaan!</a>
         </h1>
 
         <div style={{ width: 300 }}>
           <>{View}</>
-          DE Rafael para Julio
+          De farael para haruzinho
           <>{View2}</> Bolinho virtual de 9 reais
         </div>
       </main>
