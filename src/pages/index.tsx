@@ -39,9 +39,11 @@ const Home: NextPage = () => {
         </h1>
 
         <div style={{ width: 300 }}>
+          {/* @ts-ignore */}
           <Lottie options={defaultOptions} />
           DE Rafael para Julio
-          <Lottie options={defaultOptions3} /> Bolinho virtual de 9 reais kdjfaskosdjokf
+          {/* @ts-ignore */}
+          <Lottie options={defaultOptions3} /> Bolinho virtual de 9 reais
         </div>
       </main>
     </div>
