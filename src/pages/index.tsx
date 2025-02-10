@@ -1,8 +1,8 @@
-"use client"
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
 import Lottie from "react-lottie";
+import { useLottie } from "lottie-react";
 
 import birthday2 from "../assets/427-happy-birthday.json";
 import birthday3 from "../assets/66659-cherry-cake.json";
@@ -26,6 +26,9 @@ const defaultOptions3 = {
 };
 
 const Home: NextPage = () => {
+  const { View } = useLottie(defaultOptions);
+  const { View: View2 } = useLottie(defaultOptions3);
+
   return (
     <div className={styles.container}>
       <Head>
@@ -40,11 +43,9 @@ const Home: NextPage = () => {
         </h1>
 
         <div style={{ width: 300 }}>
-          {/* @ts-ignore */}
-          <Lottie options={defaultOptions} />
+          <>{View}</>
           DE Rafael para Julio
-          {/* @ts-ignore */}
-          <Lottie options={defaultOptions3} /> Bolinho virtual de 9 reais
+          <>{View2}</> Bolinho virtual de 9 reais
         </div>
       </main>
     </div>
