@@ -28,19 +28,19 @@ const Home: NextPage = () => {
   return (
     <div className={styles.container}>
       <Head>
-        <title>Aniversario de Endria</title>
+        <title>Aniversario de Julio</title>
         <meta name="description" content="Feliz aniversario 🎉" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
 
       <main className={styles.main}>
         <h1 className={styles.title}>
-          Feliz Niver <a href="#">Endriaaaa!</a>
+          Feliz Niver <a href="#">Julioooooo!</a>
         </h1>
 
         <div style={{ width: 300 }}>
           <Lottie options={defaultOptions} />
-          DE Farael para Endria
+          DE Rafael para Julio
           <Lottie options={defaultOptions3} /> Bolinho virtual de 9 reais kdjfaskosdjokf
         </div>
       </main>
