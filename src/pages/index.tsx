@@ -1,7 +1,6 @@
 import type { NextPage } from "next";
 import Head from "next/head";
 import styles from "../styles/Home.module.css";
-import Lottie from "react-lottie";
 import { useLottie } from "lottie-react";
 
 import birthday2 from "../assets/427-happy-birthday.json";
