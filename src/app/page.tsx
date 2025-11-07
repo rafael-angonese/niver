@@ -43,7 +43,7 @@ export default function Home() {
     });
   };
 
-  const messages = ["Feliz Aniversário", "Parabéns Jhey", "Muito Sucesso", "Grande Dia", "Mais Um Ano de Vitórias"]
+  const messages = ["Feliz Aniversário", "Parabéns Doug", "Muito Sucesso", "Grande Dia", "Mais Um Ano de Vitórias"]
 
   const changeMessage = () => {
     const newMessage = messages[Math.floor(Math.random() * messages.length)]
@@ -121,7 +121,7 @@ export default function Home() {
           animate={{ opacity: 1, y: 0 }}
           transition={{ delay: 0.3 }}
         >
-          Jhey!
+          Doug!
         </motion.h2>
 
         <motion.div
